@@ -2,7 +2,7 @@
 const express = require("express");
 const router = express.Router();
 const Menu = require("../model/menu.js");
-const menuController = require("../controllers/menuController");
+const menuController = require("../controllers/menuController.js");
 
 // get all menu items
 
